@@ -1,0 +1,350 @@
+﻿<html ng-app="tataRuang" class="fixed-home">
+<head>
+    <title>Tata Ruang Architects</title>
+    <meta name="description" content="Architecture & Interior Design Consultant" />
+    <meta property="og:site_name" content="Tata Ruang Architects">
+    <meta property="og:title" content="Tata Ruang Architects" />
+    <meta property="og:description" content="Architecture & Interior Design Consultant" />
+    <meta property="og:image" itemprop="image" content="/assets/images/tr-logo-300.png">
+    <meta property="og:type" content="website" />
+
+    <!--icon-->
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+
+    <!--styles load-->
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <link href="assets/css/lightslider.css" rel="stylesheet" />
+    <link href="assets/css/flexslider.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+
+<body ng-controller="mainController">
+    <!--home-->
+    <section id="welcome" class="welcome-section">
+        <div class="row align-center-v">
+            <div class="col-xs-12 text-center">
+                <img class="max-width-100-percent fadeInDown animated" src="assets/images/tr-logo-full.png" />
+            </div>
+        </div>
+        <a id="explore_nav" class="explore">
+            <h2 class="no-margin">
+                Explore
+                <span class="ion-ios ion-ios-arrow-down"></span>
+            </h2>
+        </a>
+    </section>
+
+    <!--navigation-->
+    <section id="navigation" class="navigation-section overflow-hidden">
+        <div class="navigation-page">
+            <div class="home-row">
+                <a id="architecture" class="home-grid" ng-click="SetProjects(model.MainMenu[0])">
+                    <div class="box-bg">
+                        <img class="bg-img" src="assets/images/bg-grid.jpg" />
+                        <h3 class="box-title">Architecture</h3>
+                        <img class="box-icon" src="assets/images/logo-architecture.png" />
+                    </div>
+                </a>
+                <a id="interior" class="home-grid" ng-click="SetProjects(model.MainMenu[1])">
+                    <div class="box-bg">
+                        <img class="bg-img" src="assets/images/bg-grid.jpg" />
+                        <h3 class="box-title">Interior</h3>
+                        <img class="box-icon" src="assets/images/logo-interior.png" />
+                    </div>
+                </a>
+                <a id="ideas" class="home-grid" ng-click="SetProjects(model.MainMenu[2])">
+                    <div class="box-bg">
+                        <img class="bg-img" src="assets/images/bg-grid.jpg" />
+                        <h3 class="box-title">Ideas</h3>
+                        <img class="box-icon" src="assets/images/logo-ideas.png" />
+                    </div>
+                </a>
+            </div>
+
+            <div class="home-row middle-row">
+                <a class="home-grid no-click">
+                    <div class="box-bg no-before">
+                        <ul class="light-slider-home">
+                            <li>
+                                <img class="bg-img" src="assets/images/dummy-architecture-175.jpg" />
+                            </li>
+                            <li>
+                                <img class="bg-img" src="assets/images/dummy-architecture-175.jpg" />
+                            </li>
+                            <li>
+                                <img class="bg-img" src="assets/images/dummy-architecture-175.jpg" />
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+                <a class="home-grid" href="/Home.html">
+                    <div class="box-bg main-logo">
+                        <img class="bg-img" src="assets/images/tr-logo-175.png" />
+                    </div>
+                </a>
+                <a class="home-grid no-click">
+                    <div class="box-bg no-before">
+                        <ul class="light-slider-home">
+                            <li>
+                                <img class="bg-img" src="assets/images/dummy-architecture-175.jpg" />
+                            </li>
+                            <li>
+                                <img class="bg-img" src="assets/images/dummy-architecture-175.jpg" />
+                            </li>
+                            <li>
+                                <img class="bg-img" src="assets/images/dummy-architecture-175.jpg" />
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+
+            <div class="home-row">
+                <a class="home-grid" ng-click="SetCompanyProfile(model.CompanyProfile)">
+                    <div class="box-bg">
+                        <img class="bg-img" src="assets/images/bg-grid.jpg" />
+                        <h3 class="box-title">About us</h3>
+                        <img class="box-icon" src="assets/images/logo-about-us.png" />
+                    </div>
+                </a>
+                <a class="home-grid" id="contact_us">
+                    <div class="box-bg">
+                        <img class="bg-img" src="assets/images/bg-grid.jpg" />
+                        <h3 class="box-title">Contact us</h3>
+                        <img class="box-icon" src="assets/images/logo-contact-us.png" />
+                    </div>
+                </a>
+                <a class="home-grid" href="https://www.instagram.com/tataruang.architects">
+                    <div class="box-bg">
+                        <img class="bg-img" src="assets/images/bg-grid.jpg" />
+                        <h3 class="box-title">Instagram</h3>
+                        <img class="box-icon" src="assets/images/logo-instagram.png" />
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--contact us-->
+    <section class="contact-us-section" id="contact_section">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="row margin-bottom-24">
+                    <div class="col-xs-12">
+                        <h1 class="text-center no-margin-top margin-bottom-8">Contact Us</h1>
+                        <h3 class="text-center no-margin-top">Interested with our works? Get in touch with us today.</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-5">
+                        <ul class="contact-list">
+                            <li ng-repeat="contactInfo in model.ContactInfo"><span><img class="contact-logo" ng-src="{{contactInfo.Logo}}" /></span><span>{{contactInfo.Contact}}</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-7 xsmall-margin-top-48">
+                        <form class="form-horizontal" style="height: auto;">
+                            <div class="form-group">
+                                <label for="email_input" class="col-sm-3 control-label">Email</label>
+                                <div class="col-sm-9">
+                                    <input type="email" class="form-control" id="email_input" required data-validation-required-message="Please enter your email address.">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject_input" class="col-sm-3 control-label">Subject</label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="subject_input" required data-validation-required-message="Please enter your subject.">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message_input" class="col-sm-3 control-label">Message</label>
+                                <div class="col-sm-9">
+                                    <textarea id="message_input" class="form-control" rows="5" style="resize:vertical" required data-validation-required-message="Please enter a message."></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-3 col-sm-9">
+                                    <button type="submit" id="submit_btn" class="btn btn-default">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--projects-->
+    <div class="projects-container">
+        <div class="content-container">
+            <div class="content">
+                <div class="row">
+                    <div class="projects-affix medium-up-position-fixed">
+                        <div class="col-md-3 text-center medium-up-position-relative">
+                            <div class="medium-up-text-right">
+                                <a href="Home.html"><img class="content-logo" src="assets/images/tr-logo.png" /></a>
+                                <h1 class="content-title">{{SelectedMenuTitle}}</h1>
+                                <h3 class="content-subtitle">{{SelectedMenuSubtitle}}</h3>
+                                <p class="content-description">{{SelectedMenuDescription}}</p>
+                            </div>
+                            <div class="medium-up-text-right text-left">
+                                <h4 id="back_projects" class="close-projects-container"><span class="ion-ios-arrow-left"></span>Back</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-9 col-md-offset-3 margin-top-35 medium-up-no-margin-top">
+                        <div class="content-grouping" ng-repeat="projectByYear in projectsByYear | orderBy: '-Year'">
+                            <h2 class="project-year">{{projectByYear.Year}}</h2>
+                            <div class="row project-grouping">
+                                <div class="col-sm-6 col-md-4" ng-repeat="project in projectByYear.Projects">
+                                    <div class="project-grid" ng-click="SetProjectList(project)">
+                                        <img class="project-img" ng-src="{{project.Images[0]}}" onload="imgOnLoad(this)"" />
+                                        <div class="project-title-container">
+                                            <h3 class="project-title">{{project.Name}}<span class="view-span">View</span></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--projects list-->
+    <div class="projects-list-container">
+        <div class="content-container">
+            <div class="content">
+                <div class="row">
+                    <div class="projects-affix medium-up-position-fixed">
+                        <div class="col-md-3 text-center medium-up-position-relative">
+                            <div class="medium-up-text-right">
+                                <a href="Home.html"><img class="content-logo" src="assets/images/tr-logo.png" /></a>
+                                <h1 class="content-title">{{SelectedMenuTitle}}</h1>
+                                <h3 class="content-subtitle">{{SelectedMenuSubtitle}}</h3>
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-4 col-md-12 medium-up-no-padding-right">
+                                        <div class="info-group">
+                                            <label class="info-title">Architect{{projectDetail.Architects.length > 1 ? 's' : ''}}</label>
+                                            <p class="information" ng-repeat="arch in projectDetail.Architects">{{arch}}</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-6 col-sm-4 col-md-12 medium-up-no-padding-right">
+                                        <div class="info-group">
+                                            <label class="info-title">Location</label>
+                                            <p class="information">{{projectDetail.Location}}</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-6 col-sm-4 col-md-12 medium-up-no-padding-right">
+                                        <div class="info-group">
+                                            <label class="info-title">Wide Area</label>
+                                            <p class="information">{{projectDetail.Area}}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="content-description">{{projectDetail.Description}}</p>
+                            </div>
+                            <div class="medium-up-text-right text-left">
+                                <h4 id="back_projects_list" class="close-projects-container"><span class="ion-ios-arrow-left"></span>Back</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-9 col-md-offset-3 margin-top-35 medium-up-no-margin-top">
+                        <div class="content-grouping">
+                            <h2 class="project-year">{{projectDetail.Name}}</h2>
+                            <div class="row project-grouping">
+                                <div class="col-sm-6 col-md-4" ng-repeat="projectImg in projectDetail.Images">
+                                    <div class="project-grid" ng-click="SetProjectDetails(projectDetail, projectImg)">
+                                        <img class="project-img" ng-src="{{projectImg}}" onload="imgOnLoad(this)" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--project detail-->
+    <div class="project-detail-container">
+        <a class="close-project-detail"></a>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <h1 class="text-center no-margin-top white-text">{{projectDetail.Name}}</h1>
+            </div>
+        </div>
+
+        <div class="project-slider-container">
+            <flex-slider id="project_slider" slide="projectImg in projectDetail.Images" animation="slide" slideshow="false" animation-loop="true" min-items="1" max-items="1" class="project-flex-slider white-control">
+                <li>
+                    <div>
+                        <img class="flex-img" ng-src="{{projectImg}}">
+                    </div>
+                </li>
+            </flex-slider>
+        </div>
+    </div>
+
+    <!--company profile-->
+    <div class="company-profile">
+        <div class="content-container">
+            <div class="content">
+                <div class="row">
+                    <div class="projects-affix medium-up-position-fixed">
+                        <div class="col-md-3 text-center medium-up-position-relative">
+                            <div class="projects-nav fixed">
+                                <div class="medium-up-text-right">
+                                    <a href="Home.html"><img class="content-logo" src="assets/images/tr-logo.png" /></a>
+                                    <h1 class="content-title">{{SelectedMenuTitle}}</h1>
+                                    <h3 class="content-subtitle">{{SelectedMenuSubtitle}}</h3>
+                                    <p class="content-description">{{SelectedMenuDescription}}</p>
+                                </div>
+                                <div class="medium-up-text-right text-left">
+                                    <h4 id="back_compro" class="close-projects-container"><span class="ion-ios-arrow-left"></span>Back</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-9 col-md-offset-3 margin-top-35 medium-up-no-margin-top">
+                        <h2 class="our-architects">Our Architects</h2>
+                        <div class="row employee-grouping" ng-repeat="employee in companyProfile.Employees">
+                            <div class="col-sm-3 text-center">
+                                <img class="employee-photo" src="/assets/images/dummy-founder-profile.jpg" />
+                            </div>
+
+                            <div class="col-sm-9 xsmall-text-center xsmall-margin-top-6">
+                                <h3 class="employee-name">{{employee.Name}}</h3>
+                                <h4 class="employee-title">{{employee.CompanyTitle}}</h4>
+                                <ul class="employee-info">
+                                    <li ng-repeat="otherInfo in employee.OtherInformation">{{otherInfo}}</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--scripts load-->
+    <script src="assets/js/modernizr-custom.js"></script>
+    <script src="assets/js/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/lightslider.js"></script>
+    <script src="assets/js/jquery.flexslider.js"></script>
+    <script src="assets/js/angular.min.js"></script>
+    <script src="assets/js/angular-flexslider.js"></script>
+    <script src="assets/js/jquery.history.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

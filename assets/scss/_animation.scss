@@ -1,0 +1,45 @@
+﻿// up and down
+@-webkit-keyframes up-and-down {
+    0%   {top:90%;}
+    50%  {top:calc(90% + 10px);}
+    100% {top:90%;}
+}
+
+@-moz-keyframes spin {
+    0%   {top:90%;}
+    50%  {top:calc(90% + 10px);}
+    100% {top:90%;}
+}
+
+@-ms-keyframes up-and-down {
+    0%   {top:90%;}
+    50%  {top:calc(90% + 10px);}
+    100% {top:90%;}
+}
+
+@keyframes up-and-down {
+    0%   {top:90%;}
+    50%  {top:calc(90% + 10px);}
+    100% {top:90%;}
+}
+
+// spin
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}

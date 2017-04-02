@@ -1,0 +1,142 @@
+﻿@media (min-width: $medium-screen) {
+    .navigation-section .navigation-page {
+        max-width: 645px;
+    }
+
+    .home-row {
+        margin-bottom: $box-margin-large;
+        margin-left: $box-margin-large;
+
+        .home-grid {
+            margin-right: $box-margin-large;
+
+            .box-bg {
+                svg {
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
+        }
+    }
+
+    .row-logo {
+        margin-bottom: $box-margin-large;
+    }
+
+    .three-categories {
+        padding: $category-padding;
+
+        > .row > [class*="col-"] {
+            height: 100%;
+
+            .category-group .category-title {
+                font-size: 6rem;
+            }
+        }
+    }
+
+    .medium-up-hide-top {
+        top: calc(-100% - #{$category-padding});
+    }
+
+    .medium-up-hide-bottom {
+        top: calc(100% + #{$category-padding});
+    }
+
+    .small-down-hide-left {
+        left: 0;
+    }
+
+    .small-down-hide-right {
+        left: 0;
+    }
+
+    .medium-up-text-right {
+        text-align: right;
+    }
+
+    .medium-up-text-justify-rtl {
+        text-align: justify;
+        direction: rtl;
+    }
+
+    .medium-up-no-margin {
+        margin: 0;
+    }
+
+    .medium-up-no-padding {
+        padding: 0;
+    }
+
+    .medium-up-no-padding-right {
+        padding-right: 0;
+    }
+
+    .medium-up-no-margin-top {
+        margin-top: 0;
+    }
+
+    .medium-up-position-relative {
+        position: relative;
+    }
+
+    .project-detail-container {
+        padding-top: 90px;
+
+        .close-project-detail {
+            font-size: 10rem;
+            margin-top: 20px;
+            margin-right: 50px;
+        }
+
+        .project-slider-container {
+            max-width: 1000px;
+            margin: auto;
+        }
+    }
+
+    .close-projects-container {
+        position: initial;
+        margin-top: 35px;
+        top: initial;
+        left: initial;
+        width: auto;
+        padding: 0;
+        background: none;
+        border-bottom: none;
+        z-index: initial;
+    }
+
+    .category-group {
+        .category-title {
+            /*.coming-soon.active {
+                @include transition-fast;
+                display: block;
+                opacity: 0;
+            }*/
+            .coming-soon-text {
+                @include transition-fast;
+                opacity: 0;
+            }
+        }
+        /*&:hover .category-title .coming-soon.active {
+            opacity: 1;
+        }*/
+        &:hover .category-title .coming-soon-text {
+            opacity: 1;
+        }
+    }
+
+    .projects-affix {
+        width: 100%;
+        max-width: $max-row-width;
+    }
+
+    .medium-up-position-fixed {
+        position: fixed;
+    }
+    
+    .info-group {
+        text-align: right;
+    }
+}

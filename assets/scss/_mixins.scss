@@ -1,0 +1,95 @@
+﻿@mixin transition($timing, $speed, $delay) {
+    transition-property: all;
+    transition-timing-function: $timing;
+    transition-duration: $speed;
+    transition-delay: $delay;
+    -webkit-transition-property: all;
+    -webkit-transition-timing-function: $timing;
+    -webkit-transition-duration: $speed;
+    -webkit-transition-delay: $delay;
+    -moz-transition-property: all;
+    -moz-transition-timing-function: $timing;
+    -moz-transition-duration: $speed;
+    -moz-transition-delay: $delay;
+    -o-transition-property: all;
+    -o-transition-timing-function: $timing;
+    -o-transition-duration: $speed;
+    -o-transition-delay: $delay;
+}
+
+@mixin transition-base {
+    transition-property: all;
+    transition-timing-function: ease;
+    -webkit-transition-property: all;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-property: all;
+    -moz-transition-timing-function: ease;
+    -o-transition-property: all;
+    -o-transition-timing-function: ease;
+}
+
+@mixin transition-fast {
+    @include transition-base;
+    @include smooth-animation;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+}
+
+@mixin transition-medium {
+    @include transition-base;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+}
+
+@mixin rounded-corner($arg) {
+    -webkit-border-radius: $arg;
+    -moz-border-radius: $arg;
+    -o-border-radius: $arg;
+    border-radius: $arg;
+}
+
+@mixin gradient-border($direction, $start, $end) {
+    background-image: linear-gradient($direction, rgba(0,0,0,$start), rgba(0,0,0,$end));
+}
+
+@mixin custom-border($width, $height, $top, $right, $bottom, $left) {
+    @include transition(ease-in-out, 2s, 0s);
+    position: absolute;
+    width: $width;
+    height: $height;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+}
+
+@mixin smooth-animation {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+}
+
+@mixin animate-infinite($animation, $duration) {
+    -webkit-animation-name: $animation;
+    -webkit-animation-duration: $duration;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: $animation;
+    -moz-animation-duration: $duration;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-name: $animation;
+    -ms-animation-duration: $duration;
+    -ms-animation-iteration-count: infinite;
+    animation-name: $animation;
+    animation-duration: $duration;
+    animation-iteration-count: infinite;
+}
+
+@mixin animation-linear {
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    animation-timing-function: linear;
+}

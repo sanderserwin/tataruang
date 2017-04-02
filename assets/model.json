@@ -1,0 +1,334 @@
+﻿{
+  "MainMenu": [
+    {
+      "Name": "Architecture",
+      "Categories": [
+        {
+          "CategoryName": "Commercial",
+          "NavImage": "",
+          "Description": "Design and build your building to suit your office needs. Create the most fun environment for working to produce the best work result from your employees",
+          "ProjectsByYear": [ ]
+        },
+        {
+          "CategoryName": "Public Place",
+          "NavImage": "",
+          "Description": "Exiciting place with beautiful design increases the opportunities for your business. We shall provide the best fitted ideas for your field needs",
+          "ProjectsByYear": [ ]
+        },
+        {
+          "CategoryName": "Residential",
+          "NavImage": "",
+          "Description": "Home sweet home! Build your most comfortable house to live in. Create the dream house you've always wanted with us",
+          "ProjectsByYear": [
+            {
+              "Year": "2016",
+              "Projects": [
+                {
+                  "Name": "G+ House",
+                  "Architects": [
+                    "Tata Ruang Architects"
+                  ],
+                  "Area": "200 m²",
+                  "Location": "Indonesia, Jakarta",
+                  "Description": "This project is located at Muara Karang, North Jakarta. The owner challenge us to build a comfortable house with an extra parking lot for his cars. On the first floor, we add a lot of open space so the house itself can contain 3 to 5 cars at the same time, we also add leisure area such as salon, Jacuzzi pool, and massage room. The second floor is a private area such as a master bedroom, family room, and also a balcony to make the air circulation better. The third floor is an observation deck, at this place the owner can observe all the environment around his house, so he can see what’s happening around his house. We also add communal room and rooftop garden on the third floor to make the place more functional and comfortable for the owner to enjoy. With this design, we can make the house more interesting and comfortable without ignoring the owner needs.",
+                  "Images": [
+                    "assets/images/main-menu/architecture/residential/2016/pik-house-1.jpg",
+                    "assets/images/main-menu/architecture/residential/2016/pik-house-2.jpg",
+                    "assets/images/main-menu/architecture/residential/2016/pik-house-3.jpg"
+                  ]
+                },
+                {
+                  "Name": "Griya House",
+                  "Architects": [
+                    "Tata Ruang Architects"
+                  ],
+                  "Area": "200 m²",
+                  "Location": "Indonesia, Jakarta",
+                  "Description": "This project is located at Gading Griya, North Jakarta. The owner want a simple design for his house. So, we obey the owner request. We design it with a very simple model. We just add a stripe windows on the front of the house to make more private as it seen.  And then we also use a natural material to finished this house. The natural material can make a relaxing feel for the user of this house. So, even though the design is very simple, the owner can fell comfortable while he stay in this house.",
+                  "Images": [
+                    "assets/images/main-menu/architecture/residential/2016/griya-house-1.jpg",
+                    "assets/images/main-menu/architecture/residential/2016/griya-house-2.jpg",
+                    "assets/images/main-menu/architecture/residential/2016/griya-house-3.jpg"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Interior",
+      "NavImage": "",
+      "Categories": [
+        {
+          "CategoryName": "Commercial",
+          "NavImage": "",
+          "Description": "From small to big business, we are the right choice to create for the professional looking yet casual design",
+          "ProjectsByYear": [
+            {
+              "Year": "2016",
+              "Projects": [
+                {
+                  "Name": "Beauty Bar",
+                  "Architects": [
+                    "Tata Ruang Architects"
+                  ],
+                  "Area": "200 m²",
+                  "Location": "Indonesia, Jakarta",
+                  "Description": "White and gold was the main concept for this facial treatment studio. The client ask us to make a bright and clean interior design for this studio. Some parts of the room were not being replaced by new materials because of the budget, this was a challenge for us to make some parts of the room to be synchronized with the new materials. We mixed the white and gold colors with existing wood materials. We used grc board with white painted wood stain at the wall with carving gypsum to give semi classic design. At the windows we add carving gypsum to make it more semi classic feels and to make it more beautiful with the grc wood stain on the wall. The concept is to make it elegant with the gold and white taste mixed it with teak wood materials in existing. We add some furniture to provide the client needs for facial treatment like a mirror and some space to put some stuffs. We use gold texture in the mirror and white texture at the bracket to blend it with the white wood stain wall. The final result of this beautybar.jkt is a little bit different because of the budget itself, but we keep the concept and control it until it’s done and we still use the main concept for the design. We use the grc white wood stain only half to press the budget and change the bracket into a small cabinet to make it affordable.",
+                  "Images": [
+                    "assets/images/main-menu/interior/commercial/2016/beauty-bar-1.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/beauty-bar-2.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/beauty-bar-3.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/beauty-bar-4.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/beauty-bar-5.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/beauty-bar-6.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/beauty-bar-7.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/beauty-bar-8.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/beauty-bar-9.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/beauty-bar-10.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/beauty-bar-11.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/beauty-bar-12.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/beauty-bar-13.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/beauty-bar-14.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/beauty-bar-15.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/beauty-bar-16.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/beauty-bar-17.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/beauty-bar-18.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/beauty-bar-19.jpg"
+                  ]
+                },
+                {
+                  "Name": "Diva Salon",
+                  "Architects": [
+                    "Tata Ruang Architects"
+                  ],
+                  "Area": "200 m²",
+                  "Location": "Indonesia, Jakarta",
+                  "Description": "This project was salon interior which is the first project that we handle with classic modern touch into the design. The challenge for this project is using some old furniture into the design and combine it with the new design. First, we use the violet bright color for the identity of the salon, so the whole interior will dominate with this violet colors. Then we use mirror as the part of the wall so people can use this mirror all the time without asking for the mirror. Beside that, this mirror makes this space wider and more comfortable. We use white furniture at the front side to make it looks classy and modern combine with the violet color. Overall this design dominate with violet color, mirror, white furniture and wood for the floor. All this material all together we combine to make this project gives a modern classic design.",
+                  "Images": [
+                    "assets/images/main-menu/interior/commercial/2016/diva-salon-1.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/diva-salon-2.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/diva-salon-3.jpg"
+                  ]
+                },
+                {
+                  "Name": "Double Bond Coffee",
+                  "Architects": [
+                    "Tata Ruang Architects"
+                  ],
+                  "Area": "200 m²",
+                  "Location": "Indonesia, Jakarta",
+                  "Description": "Simplicity and minimalism was the main concept for this project. The client challenge us to make this project looks so simple but elegant the same time so we keep the natural colors of the wall and mix it with dark wood panel so the colors will contrast at the same time. At the counter area furniture we use white glossy top table to make it clean and clear and mixed it with the dark wood, at the same time in the stairs area we close the wall with dark wood panel follow the stairs pattern. Hanging bracket lamp at the table in front of the counter providing a comfortable atmosphere and warm white ambience. There is no partition added to the coffee shop to make people enjoy their cup of coffee and see all through inside the coffee shop.",
+                  "Images": [
+                    "assets/images/main-menu/interior/commercial/2016/doublebond-coffeeshop-1.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/doublebond-coffeeshop-2.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/doublebond-coffeeshop-3.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/doublebond-coffeeshop-4.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/doublebond-coffeeshop-5.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/doublebond-coffeeshop-6.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/doublebond-coffeeshop-7.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/doublebond-coffeeshop-8.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/doublebond-coffeeshop-9.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/doublebond-coffeeshop-10.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/doublebond-coffeeshop-11.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/doublebond-coffeeshop-12.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/doublebond-coffeeshop-13.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/doublebond-coffeeshop-14.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/doublebond-coffeeshop-15.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/doublebond-coffeeshop-16.jpg"
+                  ]
+                },
+                {
+                  "Name": "Sedayu Office",
+                  "Architects": [
+                    "Tata Ruang Architects"
+                  ],
+                  "Area": "200 m²",
+                  "Location": "Indonesia, Jakarta",
+                  "Description": "This project is located at Green Sedayu in Cakung, East Jakarta. The owner challenge us to build a comfortable office with an effective and efficient spaces. According to the issue above, we designed every room as simple as possible to save more spaces. We also designed a bookshelf to put a lot of office stuff (documents, books, files) which is fused with the working table, so we can decrease wasted spaces in the room. With this design the owner will get a relieved feeling when working in this office.",
+                  "Images": [
+                    "assets/images/main-menu/interior/commercial/2016/sedayu-office-1.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/sedayu-office-2.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/sedayu-office-3.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/sedayu-office-4.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/sedayu-office-5.jpg"
+                  ]
+                },
+                {
+                  "Name": "Sierra Massage & Spa",
+                  "Architects": [
+                    "Tata Ruang Architects"
+                  ],
+                  "Area": "200 m²",
+                  "Location": "Indonesia, Jakarta",
+                  "Description": "This project is located at Lippo, Cikarang. Basicly this building is a leisure place for a lot of people to gain their relaxing feel. This building contain a lot of leisure place, such as a bar, small gym, hot and cold water pool, sauna and also a massage room. We design it with a simple Japanese style looks. We use a warm wood panel to cover all the furniture inside this building, so the ambience will give a wam and comfortable feel for the user.",
+                  "Images": [
+                    "assets/images/main-menu/interior/commercial/2016/sierra-massage-1.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/sierra-massage-2.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/sierra-massage-3.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/sierra-massage-4.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/sierra-massage-5.jpg",
+                    "assets/images/main-menu/interior/commercial/2016/sierra-massage-6.jpg"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "CategoryName": "Public Place",
+          "NavImage": "",
+          "Description": "Create a sharp looking model for your workplace to stand out more than the others",
+          "ProjectsByYear": [ ]
+        },
+        {
+          "CategoryName": "Residential",
+          "NavImage": "",
+          "Description": "Stay home more by creating cozy and comfortable environment. We shall provide our best ideas to fulfill your housing needs",
+          "ProjectsByYear": [
+            {
+              "Year": "2016",
+              "Projects": [
+                {
+                  "Name": "Miss A's Kitchen Set",
+                  "Architects": [
+                    "Tata Ruang Architects"
+                  ],
+                  "Area": "200 m²",
+                  "Location": "Indonesia, Jakarta",
+                  "Description": "This project is located at Springhill Oakwood Apartment in Kemayoran, North Jakarta. The owner request us to design a clean minimalism kitchen with a low budget cost. First of all we classified what the owner needs in the kitchen, and then designed the kitchen plan. For the finishing, we shooce bright wood texture combine with white tile to make the kitchen looks natural and use stainless as a sealer at the top of the shelf to make it more elegant. With this design, the kitchen itself will give comfortable feeling to the owner.",
+                  "Images": [
+                    "assets/images/main-menu/interior/residential/2016/miss-a-ks-1.jpg",
+                    "assets/images/main-menu/interior/residential/2016/miss-a-ks-2.jpg",
+                    "assets/images/main-menu/interior/residential/2016/miss-a-ks-3.jpg",
+                    "assets/images/main-menu/interior/residential/2016/miss-a-ks-4.jpg",
+                    "assets/images/main-menu/interior/residential/2016/miss-a-ks-5.jpg",
+                    "assets/images/main-menu/interior/residential/2016/miss-a-ks-6.jpg",
+                    "assets/images/main-menu/interior/residential/2016/miss-a-ks-7.jpg",
+                    "assets/images/main-menu/interior/residential/2016/miss-a-ks-8.jpg",
+                    "assets/images/main-menu/interior/residential/2016/miss-a-ks-9.jpg"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Ideas",
+      "NavImage": "",
+      "Categories": [
+        {
+          "CategoryName": "Commercial",
+          "NavImage": "",
+          "Description": "Take a look at our most forward-thinking ideas that might suit your needs. We provide only the best looking design that will blow your mind",
+          "ProjectsByYear": [
+            {
+              "Year": "2016",
+              "Projects": [
+                {
+                  "Name": "BCA Headquarter",
+                  "Architects": [
+                    "Tata Ruang Architects"
+                  ],
+                  "Area": "200 m²",
+                  "Location": "Indonesia, Jakarta",
+                  "Description": "The main concept for this BCA façade was metaphor form, we use clove as the concept for this façade. We use clove because BCA logo inspired by clove form so we use it as the concept for this building with the identity of is. The colors of this façade design contains concrete, white, and blue BCA colors. This 3 colors were the main material colors for this façade. We use dynamic form and bulky to give strong and solid building. Some side of the building we give more depth to reduce the heat from the natural sun light so the natural light did not directly through the building and we open some of side of the building that need more natural light to it. All of the idea was to make the façade looks solid, comfortable, efficient, and green design.",
+                  "Images": [
+                    "assets/images/main-menu/ideas/commercial/2016/bca-1.jpg",
+                    "assets/images/main-menu/ideas/commercial/2016/bca-2.jpg",
+                    "assets/images/main-menu/ideas/commercial/2016/bca-3.jpg"
+                  ]
+                }
+              ]
+            },
+            {
+              "Year": "2017",
+              "Projects": [
+                {
+                  "Name": "Crun'z Cones",
+                  "Architects": [
+                    "Tata Ruang Architects"
+                  ],
+                  "Area": "200 m²",
+                  "Location": "Indonesia, Jakarta",
+                  "Description": "Crun'z Cones nih, keren banget lho!",
+                  "Images": [
+                    "assets/images/main-menu/ideas/commercial/2017/crunz-cones-1.jpg",
+                    "assets/images/main-menu/ideas/commercial/2017/crunz-cones-2.jpg",
+                    "assets/images/main-menu/ideas/commercial/2017/crunz-cones-3.jpg",
+                    "assets/images/main-menu/ideas/commercial/2017/crunz-cones-4.jpg",
+                    "assets/images/main-menu/ideas/commercial/2017/crunz-cones-5.jpg"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "CategoryName": "Public Place",
+          "NavImage": "",
+          "Description": "Take a look at our most forward-thinking ideas that might suit your needs. We provide only the best looking design that will blow your mind",
+          "ProjectsByYear": [ ]
+        },
+        {
+          "CategoryName": "Residential",
+          "NavImage": "",
+          "Description": "Take a look at our most forward-thinking ideas that might suit your needs. We provide only the best looking design that will blow your mind",
+          "ProjectsByYear": [ ]
+        }
+      ]
+    }
+  ],
+  "CompanyProfile": {
+    "Title": "Company Profile",
+    "Subtitle": "About Us",
+    "Description": "Tata Ruang Architects was founded by two young and talented architects, Antonio Arnett and Jonathan Tenika. Our vision is to create new and innovative designs by exploring every corner of the room. To achieve our vision, we have created a mission in which it fulfills our clients' needs and merge it with our brilliant ideas",
+    "Employees": [
+      {
+        "Name": "Antonio Arnett",
+        "CompanyTitle": "CO Founder of Tata Ruang Architects",
+        "ProfilePict": "",
+        "OtherInformation": [
+          "Bachelor of Architecture, Tarumanagara University",
+          "Internship at PT. Davaidasvidania",
+          "Work Exp. WAR Architect"
+        ]
+      },
+      {
+        "Name": "Jonathan Tenika",
+        "CompanyTitle": "CO Founder of Tata Ruang Architects",
+        "ProfilePict": "",
+        "OtherInformation": [
+          "Bachelor of Architecture, Tarumanagara University",
+          "Internship at PT. Indomegah Cipta Bangun Citra"
+        ]
+      }
+    ]
+  },
+  "ContactInfo": [
+    {
+      "Logo": "assets/images/contacts/email.png",
+      "Contact": "tataruang@yahoo.com"
+    },
+    {
+      "Logo": "assets/images/contacts/whatsapp.png",
+      "Contact": "+62 812 345 67"
+    },
+    {
+      "Logo": "assets/images/contacts/line.png",
+      "Contact": "tata.ruang"
+    },
+    {
+      "Logo": "assets/images/contacts/facebook.png",
+      "Contact": "tata.ruang"
+    },
+    {
+      "Logo": "assets/images/contacts/twitter.png",
+      "Contact": "tata.ruang"
+    }
+  ]
+}

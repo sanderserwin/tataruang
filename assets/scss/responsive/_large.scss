@@ -1,0 +1,29 @@
+﻿@media (min-width: $large-screen) {
+    /*body {
+        overflow: hidden;
+    }*/
+
+    .row-no-padding {
+        [class*="col-"] {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+    }
+
+    .show-for-large-up {
+        display: block;
+    }
+
+    .hide-large-up {
+        display: none;
+    }
+
+    .large-up-padding-left-right-15 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .large-up-no-margin {
+        margin: 0 !important;
+    }
+}
